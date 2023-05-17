@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-
+1.4.5.min.css"
+    />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Gallery Website</title>
+  </head>
+  <body>
+    <div data-role="page" style="background-color: aliceblue">
+      <div data-role="header" data-theme="b">
+        <h1>Gallery Website</h1>
+      </div>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="index.html" data-transition="slidefade">Home</a></li>
+          <!-- <li><a href="about.html" data-transition="slidefade">About</a></li> -->
+          <li>
+            <a href="login_register.html" data-transition="slidefade"
+              >Register for Newsletter</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="content" style="width: 50%; margin: 5% auto">
+        <center><h3>Register</h3></center>
+        <div data-role="content">
+          <label for="userName">Username</label>
+          <input type="text" name="userName" />
+          <label for="email">Email</label>
+          <input type="text" name="email" />
+          <label for="select-choice-a" class="select">Select Occupation</label>
+          <select
+            name="select-choice-a"
+            id="select-choice-a"
+            data-native-menu="false"
+          >
+                
+            <option>Occupation</option>
+                
+            <option value="student">Student</option>
+                
+            <option value="educator">Educator</option>
+                
+            <option value="photographer">Photographer</option>
+                
+            <option value="developer">Developer</option>
+          </select>
+          <label for="select-choice-8" class="select"
+            >Select Interests:</label
+          >
+          <select
+            name="select-choice-8"
+            id="select-choice-8"
+            multiple="multiple"
+            data-native-menu="false"
+          >
+                
+            <option>Select Your Interests</option>
+                         
+            <option value="nature" selected="">Nature</option>
+                    
+            <option value="3d">3D</option>
+                    
+            <option value="cars">Cars</option>
+                    
+            <option value="sports">Sports</option>
+                              
+            <option value="sunset">Sunset</option>
+                    
+            <option value="sea">Sea</option>
+                    
+            <option value="abstract">abstract</option>
+                
+          </select>
+          <label for="password">Password</label>
+          <input type="password" name="password" />
+          <label for="slider-flip-m">Keep me Signed In</label>
+          <select
+            name="slider-flip-m"
+            id="slider-flip-m"
+            data-role="slider"
+            data-mini="true"
+          >
+                
+            <option value="off">No</option>
+                
+            <option value="on" selected="">Yes</option>
+          </select>
+          <center>
+            <a
+              href="#popupDialog"
+              data-rel="popup"
+              data-position-to="window"
+              data-transition="pop"
+              class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-check ui-btn-icon-left ui-btn-b"
+              >Register Me</a
+            >
+            <div
+              data-role="popup"
+              id="popupDialog"
+              data-overlay-theme="b"
+              data-theme="b"
+              data-dismissible="false"
+              style="max-width: 400px"
+            >
+                  
+              <div data-role="header" data-theme="a">
+                    
+                <h1>Confirmation</h1>
+                    
+              </div>
+                  
+              <div role="main" class="ui-content">
+                        
+                <h3 class="ui-title">
+                  Are you sure ?
+                </h3>
+                    
+
+                        <a
+                  href="#"
+                  class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                  data-rel="back"
+                  >Cancel</a
+                >
+                        <a
+                  href="index.html"
+                  class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                  data-transition="flow"
+                  >Register Me</a
+                >
+                    
+              </div>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+ss
